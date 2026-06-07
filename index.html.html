@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1-L-301 Reactor Instrument Viewer</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>1-L-301 Reactor Instrument Viewer</h1>
+</header>
+
+<div class="container">
+
+    <div class="reactor-area">
+
+        <svg viewBox="0 0 400 800" class="reactor">
+
+            <!-- Reactor Body -->
+
+            <ellipse cx="200" cy="80" rx="80" ry="50" class="reactor-shape"/>
+
+            <rect x="120" y="80" width="160" height="550" class="reactor-shape"/>
+
+            <ellipse cx="200" cy="630" rx="80" ry="50" class="reactor-shape"/>
+
+            <!-- Tags -->
+
+            <text x="300" y="70" class="tag" data-tag="1-PG-943">1-PG-943</text>
+
+            <text x="300" y="650" class="tag" data-tag="1-PG-944">1-PG-944</text>
+
+            <text x="20" y="150" class="tag" data-tag="1-TR-914-2">1-TR-914-2</text>
+
+            <text x="20" y="210" class="tag" data-tag="1-TR-914-3">1-TR-914-3</text>
+
+            <text x="20" y="270" class="tag" data-tag="1-TR-914-4">1-TR-914-4</text>
+
+            <text x="20" y="330" class="tag" data-tag="1-TR-914-5">1-TR-914-5</text>
+
+            <text x="20" y="390" class="tag" data-tag="1-TR-914-6">1-TR-914-6</text>
+
+            <text x="20" y="450" class="tag" data-tag="1-TR-914-7">1-TR-914-7</text>
+
+            <text x="300" y="180" class="tag" data-tag="1-TI-2-405">1-TI-2-405</text>
+
+            <text x="300" y="220" class="tag" data-tag="1-TI-2-406">1-TI-2-406</text>
+
+            <text x="300" y="260" class="tag" data-tag="1-TI-2-407">1-TI-2-407</text>
+
+            <text x="300" y="300" class="tag" data-tag="1-TI-2-408">1-TI-2-408</text>
+
+            <text x="300" y="340" class="tag" data-tag="1-TI-2-409">1-TI-2-409</text>
+
+            <text x="300" y="380" class="tag" data-tag="1-TI-2-410">1-TI-2-410</text>
+
+            <text x="300" y="430" class="tag" data-tag="1-TI-2-425">1-TI-2-425</text>
+
+            <text x="300" y="500" class="tag" data-tag="1-TA-920">1-TA-920</text>
+
+            <text x="300" y="550" class="tag" data-tag="1-TZA-912-1">1-TZA-912-1</text>
+
+            <text x="300" y="600" class="tag" data-tag="1-PDI-908">1-PDI-908</text>
+
+        </svg>
+
+    </div>
+
+    <div class="info-panel">
+
+        <h2>Instrument Information</h2>
+
+        <div id="details">
+            Click a tag to view details.
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/instruments.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
