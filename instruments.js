@@ -1,0 +1,59 @@
+const instruments = {
+
+"1-TZA-912-1": {
+    tag:"1-TZA-912-1",
+    equipment:"1-L-301",
+    type:"Temperature Alarm/Trip Transmitter",
+    input:"RTD Pt100",
+    supply:"120 VAC",
+    manufacturer:"AMETEK",
+    model:"SC-7404-N-R-NC"
+},
+
+"1-PG-943": {
+    tag:"1-PG-943",
+    equipment:"1-L-301",
+    type:"Pressure Gauge",
+    manufacturer:"WIKA",
+    model:"232.30.160",
+    range:"0-60 kg/cm²",
+    material:"SS316L"
+},
+
+"1-PG-944": {
+    tag:"1-PG-944",
+    equipment:"1-L-301",
+    type:"Pressure Gauge",
+    manufacturer:"WIKA",
+    model:"232.30.160",
+    range:"0-60 kg/cm²",
+    material:"SS316L"
+},
+
+"1-TR-914-7": {
+    tag:"1-TR-914-7",
+    type:"Thermocouple",
+    thermocouple:"Type K",
+    construction:"Triplex",
+    immersion:"350 mm",
+    inset:"605 mm"
+},
+
+"1-TA-920": {
+    tag:"1-TA-920",
+    type:"Temperature Alarm",
+    thermocouple:"Type K",
+    construction:"Triplex",
+    immersion:"350 mm",
+    inset:"605 mm"
+},
+
+"1-PDI-908": {
+    tag:"1-PDI-908",
+    type:"Differential Pressure Indicator",
+    transmitter:"Foxboro 11DM-CS2",
+    output:"3-15 PSI",
+    indicator:"Model 112 Style A"
+}
+
+};
